@@ -40,6 +40,10 @@ header {
   text-align: center;
 }
 
+.div-nav-links > ul > li:hover {
+  color: hsl(16, 24%, 64%);
+}
+
 #btn-cta-login, #btn-cta-sign-up {
   width: 100%;
   padding: .5rem;
@@ -47,10 +51,20 @@ header {
   border-radius: 4px;
 }
 
+#btn-cta-login:hover {
+  color: hsl(16, 24%, 64%);
+  border-color: hsl(16, 24%, 64%);
+}
+
 #btn-cta-sign-up {
   border-color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 0%);
+}
+
+#btn-cta-sign-up:hover {
+  border-color: hsl(16, 24%, 64%);
+  background-color: hsl(16, 24%, 64%);
 }
 
 .list-header-links {
@@ -122,6 +136,11 @@ header {
   background-color: hsl(0, 0%, 0%);
   color: hsl(0, 0%, 100%);
   font-weight: 600;
+}
+
+#input-submit:hover {
+  border-color: hsl(16, 24%, 64%);
+  background-color: hsl(16, 24%, 64%);
 }
 
 .div-features {
@@ -244,4 +263,8 @@ footer {
 
 .list-sublist-links > li:last-of-type {
   margin-bottom: 0;
+}
+
+.list-sublist-links > li:hover {
+  color: hsl(16, 24%, 64%);
 }
